@@ -11,10 +11,42 @@ body {
 }
 .xhr{
   font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
   font-weight: bolder;
+  font-family: sans-serif;
+  animation: hrx 3s infinite;
+  transition-timing-function: linear;
+}
+@keyframes hrx{
+  to{transform: rotateX(150deg)
+    rotateY(160deg)
+    rotateZ(359.7deg)
+  }
 }
 .ph{
   font-size: 20px;
   font-weight: bolder;
   font-family: cursive;
+}
+div{
+  margin: auto;
+  background: blue;
+  width: 300px;
+  height: 300px;
+  animation: exe 5s infinite;
+  transition-timing-function: linear;
+}
+@keyframes exe{
+  0%{background: red}
+  20%{background: beige}
+  40%{background: slateblue}
+  60%{background: grey}
+  80%{background: ivory}
+  100%{background: salmon}
+  to{transform: rotateX(160deg)
+  rotateY(200deg)
+  rotateZ(360deg)
+  }
 }
